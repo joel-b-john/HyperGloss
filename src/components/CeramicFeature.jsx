@@ -53,7 +53,7 @@ export default function CeramicFeature({ onOpenBooking }) {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden border border-[#00B7FF]/40 shadow-[0_0_40px_rgba(0,183,255,0.3)] group">
               <img
-                src="/images/ceramic.jpg"
+                src="./images/ceramic.jpg"
                 alt="9H Nano Ceramic Coating Hydrophobic Water Beads on Toyota Fortuner"
                 className="w-full h-[320px] sm:h-[440px] lg:h-[520px] object-cover group-hover:scale-105 transition-transform duration-700 filter contrast-110"
               />

@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="sm:col-span-2 space-y-4">
             <a href="#home" className="inline-flex items-center gap-3 group">
               <img
-                src="/images/logo.jpg"
+                src="./images/logo.jpg"
                 alt="HYPERGLOSS CUSTOM Logo"
                 className="h-12 w-12 rounded-xl object-cover border border-[#00B7FF]/40 shadow-[0_0_15px_rgba(0,183,255,0.4)]"
               />

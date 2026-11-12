@@ -9,7 +9,7 @@ export default function LargeCTA({ onOpenBooking }) {
       {/* Background Graphic & Glow */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero.jpg"
+          src="./images/hero.jpg"
           alt="HYPERGLOSS Detailing Lab background"
           className="w-full h-full object-cover filter brightness-30 contrast-125"
         />

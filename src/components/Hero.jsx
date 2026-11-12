@@ -17,7 +17,7 @@ export default function Hero({ onOpenBooking }) {
       {/* Background Hero Image with Dark Gradient & Electric Blue Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero.jpg"
+          src="./images/hero.jpg"
           alt="Tata Harrier Dark Edition in HYPERGLOSS Detailing Bay"
           className="w-full h-full object-cover object-center scale-105 filter brightness-75 contrast-125"
         />
@@ -144,7 +144,7 @@ export default function Hero({ onOpenBooking }) {
             {/* Indian Vehicle Callout Card */}
             <div className="glass-panel p-4 sm:p-5 rounded-xl border border-[#00B7FF]/20 flex items-center gap-3.5 sm:gap-4">
               <img
-                src="/images/thar.jpg"
+                src="./images/thar.jpg"
                 alt="Mahindra Thar 4x4 Detailed at HYPERGLOSS"
                 className="w-14 h-14 sm:w-16 sm:h-16 rounded-lg object-cover border border-[#00B7FF]/30 shrink-0"
               />

@@ -90,7 +90,7 @@ export default function BeforeAfterSlider() {
             {/* AFTER Image (Full Width Underneath) */}
             <div className="absolute inset-0 w-full h-full z-0">
               <img
-                src="/images/after_gloss.jpg"
+                src="./images/after_gloss.jpg"
                 alt="After HYPERGLOSS Detailing & Ceramic Coating"
                 className="w-full h-full object-cover filter contrast-110"
               />
@@ -102,7 +102,7 @@ export default function BeforeAfterSlider() {
               style={{ width: `${sliderPosition}%` }}
             >
               <img
-                src="/images/before_swirls.jpg"
+                src="./images/before_swirls.jpg"
                 alt="Before Detailing - Heavy Swirls & Oxidation"
                 className="absolute top-0 left-0 h-full object-cover filter contrast-105"
                 style={{

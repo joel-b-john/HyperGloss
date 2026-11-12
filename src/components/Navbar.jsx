@@ -74,7 +74,7 @@ export default function Navbar({ onOpenBooking }) {
           >
             <div className="relative shrink-0">
               <img
-                src="/images/logo.jpg"
+                src="./images/logo.jpg"
                 alt="HYPERGLOSS CUSTOM Logo"
                 className="h-9 w-9 sm:h-11 sm:w-11 rounded-lg object-cover border border-[#00B7FF]/40 shadow-[0_0_15px_rgba(0,183,255,0.4)] group-hover:border-[#00F0FF] transition-all duration-300"
               />

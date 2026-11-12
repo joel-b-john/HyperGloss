@@ -48,7 +48,7 @@ export const BUSINESS_CONFIG = {
       category: "Wash",
       shortDesc: "pH-neutral foam wash, iron decontamination, clay bar treatment, wheel barrel scrub & tire dressing.",
       fullDesc: "Our signature multi-stage hand wash engineered to safely dissolve road grime, brake dust, and tar without stripping existing paint protection. Includes hydrophobic gloss rinse.",
-      image: "/images/wash.jpg",
+      image: "./images/wash.jpg",
       basePrice: 1499,
       duration: "2 - 3 Hours",
       features: [
@@ -66,7 +66,7 @@ export const BUSINESS_CONFIG = {
       category: "Interior",
       shortDesc: "Hot-water extraction vacuuming, steam sanitation, leather conditioning & UV trim protection.",
       fullDesc: "Complete deep-cleaning of cabin surfaces. Eliminates 99.9% of bacteria, stain spots, and odors while feeding leather hide and dressing dash trims.",
-      image: "/images/interior.jpg",
+      image: "./images/interior.jpg",
       basePrice: 3499,
       duration: "4 - 5 Hours",
       features: [
@@ -84,7 +84,7 @@ export const BUSINESS_CONFIG = {
       category: "Paint Correction",
       shortDesc: "Heavy compound & jewel polishing to remove 90%+ of swirl marks, scratches & hologram trails.",
       fullDesc: "Restores depth, clarity and mirror shine. Using dual-action rotaries and German Menzerna pads under 360° LED inspection lamps to erase micro-scratches.",
-      image: "/images/correction.jpg",
+      image: "./images/correction.jpg",
       basePrice: 6999,
       duration: "1 - 2 Days",
       features: [
@@ -102,7 +102,7 @@ export const BUSINESS_CONFIG = {
       category: "Ceramic Shield",
       shortDesc: "Ultra-hydrophobic ceramic glass layer providing 3 to 5 years of gloss, UV defense & scratch resistance.",
       fullDesc: "Gtechniq Crystal Serum & CarPro CQuartz nano-ceramic bond forming a crystal clear 9H ceramic glass shell over vehicle clear coat. Extreme water beading and mirror depth.",
-      image: "/images/ceramic.jpg",
+      image: "./images/ceramic.jpg",
       basePrice: 14999,
       duration: "2 Days",
       features: [
@@ -120,7 +120,7 @@ export const BUSINESS_CONFIG = {
       category: "Full Detail",
       shortDesc: "Complete interior + exterior overhaul, 2-stage paint correction, engine bay dress & 1-year sealant.",
       fullDesc: "The total transformation package. Restores interior showroom aroma, engine compartment, and exterior glass clarity into a head-turning gloss statement.",
-      image: "/images/hero.jpg",
+      image: "./images/hero.jpg",
       basePrice: 9999,
       duration: "1 Day",
       features: [
@@ -138,7 +138,7 @@ export const BUSINESS_CONFIG = {
       category: "Customization",
       shortDesc: "De-chroming, custom alloy wheels, ambient RGB lighting, body styling, wraps & PPF fitment.",
       fullDesc: "Turn your standard ride into a stance beast. From stealth piano-black de-chroming on Tata Harriers & Fortuners to custom offset alloy wheels and ambient light pods.",
-      image: "/images/customization.jpg",
+      image: "./images/customization.jpg",
       basePrice: 8499,
       duration: "Custom Timeframe",
       features: [
@@ -225,42 +225,42 @@ export const BUSINESS_CONFIG = {
       title: "Forged Alloy Wheels & Stance",
       desc: "Custom offset rims, wheel spacer fitment, gloss black powder coating & electric blue calipers.",
       icon: "CircleDot",
-      image: "/images/customization.jpg"
+      image: "./images/customization.jpg"
     },
     {
       id: "dechrome",
       title: "Stealth Piano Black De-Chroming",
       desc: "Eliminate bright chrome trims on Tata Harrier, Fortuner, Safari or Creta into aggressive gloss black.",
       icon: "ShieldAlert",
-      image: "/images/hero.jpg"
+      image: "./images/hero.jpg"
     },
     {
       id: "lighting",
       title: "Matrix LED & Ambient RGB",
       desc: "App-controlled interior ambient lighting lines, smoked taillights, and dynamic DRL halo rings.",
       icon: "Zap",
-      image: "/images/wash.jpg"
+      image: "./images/wash.jpg"
     },
     {
       id: "interior_custom",
       title: "Bespoke Leather & Blue Stitching",
       desc: "Handcrafted Nappa leather seat upgrades, carbon fiber steering wheel trims, and starhead lights.",
       icon: "Sparkles",
-      image: "/images/interior.jpg"
+      image: "./images/interior.jpg"
     },
     {
       id: "ppf",
       title: "Self-Healing TPU Film (PPF)",
       desc: "Instant stone-chip defense, self-healing scratches with heat, and optical clear gloss protection.",
       icon: "ShieldCheck",
-      image: "/images/ceramic.jpg"
+      image: "./images/ceramic.jpg"
     },
     {
       id: "paint_corr",
       title: "Hyper Mirror Paint Correction",
       desc: "Eliminate 95%+ scratches under inspection lights to reveal true obsidian black depth.",
       icon: "Eye",
-      image: "/images/correction.jpg"
+      image: "./images/correction.jpg"
     }
   ],
 
@@ -270,7 +270,7 @@ export const BUSINESS_CONFIG = {
       title: "Tata Harrier Dark Edition",
       category: "Ceramic Shield",
       service: "9H Nano Ceramic Coating & De-Chroming",
-      image: "/images/hero.jpg",
+      image: "./images/hero.jpg",
       vehicle: "Tata Harrier Dark Edition SUV"
     },
     {
@@ -278,7 +278,7 @@ export const BUSINESS_CONFIG = {
       title: "Mahindra Thar 4x4 Offroader",
       category: "Exterior Wash",
       service: "High Pressure Snow Foam & Ceramic Seal",
-      image: "/images/wash.jpg",
+      image: "./images/wash.jpg",
       vehicle: "Mahindra Thar LX 4x4"
     },
     {
@@ -286,7 +286,7 @@ export const BUSINESS_CONFIG = {
       title: "Tata Safari Starlight",
       category: "Interior",
       service: "Bespoke Interior Steam Sanitation & Leather Feed",
-      image: "/images/interior.jpg",
+      image: "./images/interior.jpg",
       vehicle: "Tata Safari Accomplished"
     },
     {
@@ -294,7 +294,7 @@ export const BUSINESS_CONFIG = {
       title: "Mahindra XUV700 AX7 L",
       category: "Paint Correction",
       service: "3-Stage Paint Correction under LED Inspection",
-      image: "/images/correction.jpg",
+      image: "./images/correction.jpg",
       vehicle: "Mahindra XUV700 Midnight Black"
     },
     {
@@ -302,7 +302,7 @@ export const BUSINESS_CONFIG = {
       title: "Toyota Fortuner Legender",
       category: "Ceramic Shield",
       service: "Hydrophobic Glass Shield & Bead Technology",
-      image: "/images/ceramic.jpg",
+      image: "./images/ceramic.jpg",
       vehicle: "Toyota Fortuner Legender 4x4"
     },
     {
@@ -310,7 +310,7 @@ export const BUSINESS_CONFIG = {
       title: "Customized Tata Harrier Stance",
       category: "Customization",
       service: "Piano Black De-chroming & Electric Blue Underglow",
-      image: "/images/customization.jpg",
+      image: "./images/customization.jpg",
       vehicle: "Tata Harrier Stance Edition"
     }
   ],
